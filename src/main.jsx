@@ -1,8 +1,9 @@
 import ReactDOM from 'react-dom/client';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
-import './scss/styles.scss';
-import * as bootstrap from 'bootstrap';
+// import '../src/scss/styles.scss';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import "bootstrap/dist/js/bootstrap.bundle.min";
 import './index.css';
 
 import App from './App.jsx';
