@@ -54,6 +54,16 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
+/* card hover effects */
+.card:hover > .card-blur{
+  filter: blur(5px); 
+}
+
+.card:hover > .card-body {
+  color: #646cff;
+}
+
+
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
