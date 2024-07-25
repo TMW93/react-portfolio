@@ -11,6 +11,9 @@ export default function Nav() {
         <Link key={2} className="nav-link" to="/portfolio">
           Portfolio
         </Link>,
+        <Link key={3} className="nav-link" to="/contact">
+          Contact Me
+        </Link>
       ]} 
     />
   )
