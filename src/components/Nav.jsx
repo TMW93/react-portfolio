@@ -13,7 +13,10 @@ export default function Nav() {
         </Link>,
         <Link key={3} className="nav-link" to="/contact">
           Contact Me
-        </Link>
+        </Link>,
+        <Link key={4} className="nav-link" to="/resume">
+          Resume
+        </Link>,
       ]} 
     />
   )
