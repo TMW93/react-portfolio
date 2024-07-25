@@ -1,3 +1,13 @@
+const usernameInput = document.getElementById('usernameInput');
+const emailInput = document.getElementById('emailInput');
+const messageInput = document.getElementById('messageInput');
+
+function formSubmit() {
+  if(!usernameInput || !emailInput || !messageInput) {
+    return alert('All fields must be filled and valid.');
+  }
+}
+
 export default function Contact() {
   return (
     <form id="messageForm">
@@ -13,7 +23,7 @@ export default function Contact() {
         <label for="messageInput" className="form-label">Message</label>
         <textarea className="form-control" id="messageInput" rows={3}></textarea>
       </div>
-      <button type="submit" className="btn btn-primary">Submit</button>
+      <button type="submit" className="btn btn-primary" onClick={formSubmit}>Submit</button>
     </form>
   );
 }
