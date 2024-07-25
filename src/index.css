@@ -18,7 +18,7 @@ a {
   color: #646cff;
   text-decoration: inherit;
 }
-a:hover {
+.card a:hover {
   color: #535bf2;
 }
 
@@ -28,11 +28,17 @@ body {
   /* place-items: center; */
   min-width: 320px;
   min-height: 100vh;
+  background-color: #CFCFC9;
+}
+
+header {
+  background-color: #EBFAFF;
 }
 
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
+  color: #252F41;
 }
 
 button {
@@ -61,6 +67,18 @@ button:focus-visible {
 
 .card:hover > .card-body {
   color: #646cff;
+}
+
+.skills-list li {
+  font-size: 1.2em;
+}
+
+.card-body h5 {
+  font-size: 1.7em;
+}
+
+#messageForm label {
+  font-size: 1.2em;
 }
 
 
